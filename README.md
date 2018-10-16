@@ -14,7 +14,7 @@ SETUP:
 
  
 6.	Type your text in input window and  text will be loop backed to output window. 
-7.	
+
 Developer Reference: 
 1.	Bug in MX_USB_DEVICE_Init() function, added HAL_PWREx_EnableUSBVoltageDetector() ; to detect USB in Host machine.
 2.	Increased heap size from 0x200 to 0x700 in startup_stm32h743xx.s file.
